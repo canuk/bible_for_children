@@ -1,0 +1,65 @@
+/* GLOBAL */
+
+/*div {border: solid red 1px;}
+div div {border: solid blue 1px;}
+div div div {border: solid yellow 1px;}
+div div div div {border: solid green 1px;}
+div div div div div {border: solid purple 1px;}
+div div div div div div {border: solid orange 1px;}
+ul li { border: solid red 1px; }
+ul li ul li { border: solid blue 1px; }*/
+
+body { font: 16px helvetica, arial, sans-serif; color: #000; margin: 15px 0 0 0; background: #0e316a; line-height: 1.1; }
+
+img { border: 0px; }
+a { outline: none; color: #72781e; text-decoration: none; }
+a:visited { color: #beba4f; }
+a:hover { color: #beba4f; text-decoration: underline; }
+h1 { font-size: 19px; margin: 0px; padding: 0px 0 10px 0; }
+h2 { font-size: 17px; margin: 0px; padding: 0px 0 8px 0; }
+h3 { font-size: 16px; margin: 0px; padding: 0px 0 6px 0; }
+p { margin: 0px; padding: 0 0 6px 0; }
+ul { margin: 0px; padding: 0 0 6px 25px; }
+ul li, .nopad { margin: 0px; padding: 0px; }
+
+/* CLASS */
+
+.maindiv { width: 760px; margin: 0 auto 0 auto; }
+
+.header, .header a { width: 760px; height: 165px; float: left; background: url('../images/header.jpg') no-repeat; }
+.header h2, .header h3 { text-indent: -5000px; font-size: 10px; }
+
+.secdiv { width: 760px; float: left; }
+
+.navbar { width: 760px; height: 55px; float: left; }
+.navbar ul { margin: 0px; padding: 0px; width: 760px; height: 55px; }
+.navbar ul li { margin: 0px; padding: 0px; display: block; float: left; height: 55px; }
+.navbar ul li a { display: block; float: left; height: 55px; text-indent: -5000px; }
+
+.content { width: 670px; height: 332px; padding: 0 0 0 90px; float: left; background: url('../images/contentbg.jpg') no-repeat; }
+.colcon { width: 651px; height: 285px; padding: 12px 0px 0 0; overflow: auto; float: left; }
+
+.col_one { width: 250px; float: left; }
+.col_two { width: 250px; float: right; }
+.col_three { width: 625px; float: left; }
+
+.footer { width: 760px; height: 18px; float: left; background: url('../images/footer.jpg') no-repeat; color: #fff; font-size: 12px; padding: 7px 0 0 0; text-align: center; }
+
+.conFoot { width: 760px; float: left; padding-top: 10px; }
+.conFoot a { color: #fff; display: block; font-size: 14px; text-indent: -5000px; width: 259px; height: 36px; margin: 0 auto; }
+
+/* STORY PAGES */
+
+.tableCont .tdTest { width: 250px; }
+.tableCont .storyLink { vertical-align: top; padding-top: 3px; }
+.tableCont .refCont { padding-left: 120px; }
+
+p.storyRef { padding-bottom: 0px; }
+ul.refList ul { margin: 0px; padding: 0 0 0 15px; }
+
+form { margin: 0px; padding: 0px; }
+
+/* IDENTITY */
+
+#devContent { background: url('../images/contentbgNV.jpg') no-repeat; }
+#devContent .colcon { padding-right: 10px; width: 641px; }
